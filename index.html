@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="shortcut icon" href="door.png" type="image/x-icon">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+        user-scalable=no">
+
+        <script type='text/javascript'> 
+            title = "Please let me go back to home. ";
+            position = 0;
+            function scrolltitle() {
+                document.title = title.substring(position, title.length) + title.substring(0, position); 
+                position++;
+                if (position > title.length) position = 0;
+                titleScroll = window.setTimeout(scrolltitle,300);
+            }
+            scrolltitle();
+            </script>
+
+            <embed name="Moving" src="https://www.youtuberepeater.com/watch?v=i3jZvyQVgRQ#gsc.tab=0" loop="true" hidden="true" autostart="true">
+
+    </head>
+
+    <style type="text/css">
+    html, body {
+        height: 100%;
+        background: #111111;
+    }
+    </style>
+
+    <body style="overflow-x: hidden; overflow-y: hidden;">
+        <div style="display: flex; justify-content: center; align-items: center; background: #111111; height: 100%;">
+        <img src="person.gif">
+        </div>
+    </body>
+
+</html>
